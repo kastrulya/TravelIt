@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#background{
+	width: 100%;
+    position: fixed;
+    display: block;
+    top: 0;
+	bottom: 0;
+    opacity: 0.7;
+    z-index: -1;
+	background: url(http://40.media.tumblr.com/7c93c05f927e0c823fff8305ae529785/tumblr_nk20158RtW1ta0hnbo1_1280.jpg) no-repeat;
+	background-size: 100%;
+}
+
+/*.all {
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+	width: 100%;
+}*/
+
+h1 {
+	color: #4A0E0E;
+}
+
+.input_data {
+	width: 25%;
+	border: none;
+	padding: 15px;
+	background-color: none;
+	text-align: center;
+	margin-top: 65px;
+}
+
+input {
+	text-align: center;
+	font-size: 1em;
+	box-shadow: none;
+	height: 30px;
+	width: 90%;
+	border: none;
+	border-bottom: 1px solid grey;
+	background-color: transparent;
+	color: white;
+}
+
+input:focus {
+	outline: none;
+	color: white;
+}
+
+input[type='submit']{
+	border: 1px solid #A92A27;
+	background-color: #DD423E;
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	width: 92%;
+	font-family: 'Londrina Sketch';
+	margin-top: 5px;
+	height: 35px;
+	opacity:0.7;
+}
+
+input:hover {
+	opacity: 1;
+}
+
+input[type='button'] {
+	border: none;
+	font-size: 1em;
+	margin-top: 10px;
+	font-family: 'Stoke';
+	cursor: hand;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	color: #333333;
+}
+
+input[type='button']:hover {
+	color: #4A0E0E;
+};
