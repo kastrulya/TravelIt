@@ -1,0 +1,88 @@
+
+.background{
+	width: 100%;
+    position: fixed;
+    display: block;
+    left: -10%;
+    top: 13%;
+	bottom: 0;
+    opacity: 0.7;
+    z-index: -1;
+	background: url(http://clevertraveling.com/wp-content/uploads/2014/04/road-trip-ideas.jpg) no-repeat;
+	background-size: 100%;
+
+}
+
+.cont {
+	height: 100%;
+	position: relative;
+	top: 8%;
+	width: 100%;
+}
+
+.new_trip {
+	background-color: white;
+	border: 1px solid #e8e8e8;
+	border-radius: 15px;
+	box-shadow: -2px 2px 4px rgba(0,0,0,.2);
+	padding-top: 30px; 
+	padding-bottom: 20px;
+	width: 1000px;
+}
+
+#map_canvas {
+	background-color: purple;
+	display: block;
+	height: 200px;
+	margin: auto;
+	/*margin-right: 100px;*/
+	position: relative;
+	width: 900px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.search {
+	position: relative;
+	left: 100px;
+}
+
+.find_city {
+	border: 1px solid grey;
+	border-radius: 5px;
+	display: inline-block;
+	margin: auto;
+	position: relative;
+	width: 300px;
+	left: 100px;
+}
+
+.find_city input {
+	border: none;
+	height: 35px;
+	font-size: 1em;
+	margin-left: 4px;
+	width: 250px;
+}
+
+.find_city img {
+	float: right;
+	height: 25px;
+	position: relative;
+	top: 4px;
+}
+
+.find_city input:focus {
+	border: none;
+	outline: none;
+}
+
+input[type="submit"] {
+	display: inline-block;
+	height: 35px;
+	position: relative;
+	left: 120px;
+	width: 50px;
+}

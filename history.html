@@ -1,0 +1,47 @@
+<!--DOCTYPE html-->
+<html>
+	<head>	
+		<link rel="stylesheet" type="text/css" href="main_page.css">
+		<link rel="stylesheet" type="text/css" href="header.css">
+		<!--<script src="https://maps.googleapis.com/maps/api/js"></script>-->
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript" src = "menu.js"></script>
+		<script type="text/javascript" src = "map.js"></script>
+		<title>TravelIt</title>
+	</head>
+	<body onload="initialize()">
+		<div class = "header">
+			<a href = "" ><h1>TravelIt </h1></a><hr>
+			<div class = "toolbar_button history_button"></div><hr>
+			<div class = "toolbar_button map_button"></div><hr>
+			<div class = "toolbar_button user_profile_button"></div><hr>
+			<div class = "toolbar_icon_menu">
+				<ul class = "icon_menu">
+					<li>My profile</li>
+					<li>Settings</li>
+					<li>Log out</li>
+				</ul>
+			</div>
+		</div>
+		<div class = "cont">
+		<div class="new_trip">
+		<input id = "titleTour" name = "titleTour" placeholder = "Give name to your tour!" autofocus />
+		<div class="search"><!-- <h1>Plan your trip</h1> -->
+		<div class = "date">
+	 		<input type="date" name = "start_tour" />
+	 		<input type="date" name = "end_tour" /><br><br>
+	 	</div>
+ 		<div class="find_city"><input name = "selected_city" placeholder = "Input city" id = "selected_city"/>
+ 			<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTVXvNz3cuNMP0h05hBJnRdxwqB3FracRFAs2KXbtiBFkkXgCkz">	
+ 		</div><input type="submit" value="Start"></div>
+ 		<br><br>
+ 		<!-- <div class = "date">
+	 		<input type="date" name = "start_tour" />
+	 		<input type="date" name = "end_tour" /><br><br>
+	 	</div> -->
+		<div id="map_canvas"></div></div>
+		</div>		
+		<div class = "background"></div>
+	</body>
+</html>
